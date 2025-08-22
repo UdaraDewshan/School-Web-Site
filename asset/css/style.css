@@ -73,3 +73,31 @@ aside.right h1 {
     transform: scale(1.05);
 }
 
+
+.about,
+.vision,
+.mission {
+    background-color: rgb(200, 223, 241);
+    padding: 30px;
+    margin: 40px;
+    border-left: 8px solid #003366;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.name {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.about h2,
+.vision h3,
+.mission h3,
+.leftmsg h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
