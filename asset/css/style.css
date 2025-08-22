@@ -6,3 +6,26 @@ body {
     color: #333;
     padding-top: 60px;
 }
+
+nav {
+    background-color: #003366;
+    padding: 15px 20px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
