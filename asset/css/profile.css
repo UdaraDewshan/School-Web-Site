@@ -1,0 +1,99 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding-top: 60px;
+}
+
+nav {
+    background-color: #003366;
+    padding: 15px 20px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+h1{
+    text-align: center;
+    color: rgb(27, 0, 134);
+   padding: 20px;
+}
+
+.div1,
+.div2{
+    background-color: rgb(200, 223, 241);
+    padding: 30px;
+    margin: 40px;
+    border-left: 8px solid #003366;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.div3{
+    background-color: rgb(200, 223, 241);
+    padding: 30px;
+    margin: 40px;
+    margin-left: 220px;
+    border-left: 8px solid #003366;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+}
+
+h2{
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20x;
+}
+
+.left{
+  
+    text-align: left;
+}
+
+.h31 {
+    text-align: left;
+}
+
+.h32 {
+    text-align: right;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+
+
+
+

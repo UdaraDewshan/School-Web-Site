@@ -1,0 +1,101 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding-top: 60px;
+}
+
+nav {
+    background-color: #003366;
+    padding: 15px 20px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+.page-title {
+    background-color: #e6f0ff;
+    padding: 30px 20px;
+    text-align: center;
+}
+.page-title h1 {
+    font-size: 2.5em;
+    color: #002244;
+}
+.page-title p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+    gap: 30px;
+}
+
+.left, .right {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.h31 {
+    text-align: left;
+    color: #003366;
+}
+
+.h32 {
+    text-align: right;
+    color: #003366;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.streams-section {
+    padding: 40px 10%;
+    background-color: #eef5ff;
+}
+
+.streams-section h2 {
+    font-size: 1.8em;
+    color: #002244;
+    margin-bottom: 20px;
+}
+
+.streams-section ul {
+    list-style: square;
+    padding-left: 25px;
+}
+
+.footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9em;
+}

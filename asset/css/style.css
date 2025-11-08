@@ -6,3 +6,171 @@ body {
     color: #333;
     padding-top: 60px;
 }
+
+nav {
+    background-color: #003366;
+    padding: 15px 20px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+aside.left {
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+aside.left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+aside.right {
+    margin-left: 22%;
+    padding: 20px;
+}
+
+aside.right h1 {
+    color: #003366;
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 1%;
+}
+
+.photo img {
+    width: 32%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+}
+
+
+.about,
+.vision,
+.mission {
+    background-color: rgb(200, 223, 241);
+    padding: 30px;
+    margin: 40px;
+    border-left: 8px solid #003366;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.name {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.about h2,
+.vision h3,
+.mission h3,
+.leftmsg h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.photoPrincipal {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: center;
+    margin: 90px;
+}
+
+.principalBox {
+    text-align: justify;
+}
+
+.principalBox img {
+    border-radius: 30px;
+    border: 3px solid #07006b;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+    max-width: 520px;
+}
+
+.principalBox h4 {
+    margin-top: 30px;
+    color: #003366;
+    font-size: 18px;
+}
+
+.leftmsg {
+    background-color: rgb(200, 223, 241);
+    padding: 40px;
+    border-radius: 10px;
+    border-left: 10px solid #003366;
+    border-right: 10px solid #003366;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.contact {
+    background-color: rgb(200, 223, 241);
+    padding: 30px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 8px solid #003366;
+    border-radius: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    text-align:end;
+}
+
+.social img {
+    max-width: 1.5rem;
+    margin-right: .5rem;
+    background: #000;
+    border-radius: 10rem;
+    border: .1rem #000 solid;
+    opacity: .8;
+    transition: .3s;
+}
